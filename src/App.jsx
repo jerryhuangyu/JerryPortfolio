@@ -1,18 +1,17 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
-import { About, Contact, Hero, Project, Skill } from './sections'
+import Home from "./pages/Home/Home";
+import Resume from "./pages/resume/Resume";
 
 function App() {
-
   return (
-    <>
-      <Hero />
-      <About />
-      <Skill />
-      <Project />
-      <Contact />
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
