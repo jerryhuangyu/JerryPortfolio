@@ -16,11 +16,12 @@ const IntroductionContent = () => {
   return (
     <div className='z-30 w-[600px] rounded-xl backdrop-blur-[4px] dark:bg-opacity-[0.01]'>
       <h1>hacker text</h1>
-      <p>
+      <p className='text-secondary-light dark:text-secondary-dark font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[15px] lg:leading-[40xp] mt-4'>
         {t("hero.intro1")}
         <br />
         {t("hero.intro2")}&nbsp;
         <ReactTyped
+          className='font-bold text-third-light dark:text-third-dark'
           strings={["Web.", "MR.", "ROS."]}
           typeSpeed={180}
           backSpeed={110}
@@ -33,8 +34,8 @@ const IntroductionContent = () => {
 
 const Hero = () => {
   return (
-    <section className='h-screen bg-gradient-to-tr from-[#dbe7f0] via-[#f0e8d4] to-[#f5efe6]'>
-      <div className='absolute inset-0 top-[160px] mx-auto max-w-7xl flex flex-row items-start gap-4 sm:top-[190px] md:gap-10'>
+    <section className='h-screen bg-gradient-to-tr from-[#dbe7f0] via-[#f0e8d4] to-[#f5efe6] dark:bg-primary-dark dark:bg-none'>
+      <div className='absolute sm:px-16 px-6 inset-0 top-[160px] mx-auto max-w-7xl flex flex-row items-start gap-4 sm:top-[190px] md:gap-10'>
         <LineDecorator />
         <IntroductionContent />
       </div>

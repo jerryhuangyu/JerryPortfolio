@@ -11,7 +11,7 @@ export default {
 
         "primary-dark": "#1b1b1d",
         "secondary-dark": "#e0e2d9", // text main
-        "third-dark": "#fffef5", // text secondary
+        "third-dark": "#fffefe", // text secondary
         "tertiary-dark": "#374151",
         
         "out": "#62cdff"
