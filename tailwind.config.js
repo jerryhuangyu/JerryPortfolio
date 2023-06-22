@@ -16,6 +16,9 @@ export default {
         
         "out": "#62cdff"
       },
+      screens: {
+        xs: "450px",
+      },
     },
   },
   plugins: [],
