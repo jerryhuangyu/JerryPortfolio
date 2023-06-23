@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import ReactTyped from "react-typed";
+import { HackerText } from '../../../components'
 
 const LineDecorator = () => {
   return (
@@ -16,6 +17,7 @@ const IntroductionContent = () => {
   return (
     <div className='z-30 w-[600px] rounded-xl backdrop-blur-[4px] dark:bg-opacity-[0.01]'>
       <h1>hacker text</h1>
+      <HackerText className="text-white" text="Jerry" />
       <p className='text-secondary-light dark:text-secondary-dark font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[15px] lg:leading-[40xp] mt-4'>
         {t("hero.intro1")}
         <br />
