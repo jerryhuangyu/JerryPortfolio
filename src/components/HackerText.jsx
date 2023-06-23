@@ -46,9 +46,9 @@ const HackerText = ({ className, text }) => {
   }, [handleMouseOver]);
 
   return (
-    <p ref={hackerTextRef} data-value={text} className={className}>
+    <span ref={hackerTextRef} data-value={text} className={className}>
       {text}
-    </p>
+    </span>
   );
 };
 
