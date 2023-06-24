@@ -21,6 +21,7 @@ const Navbar = () => {
           selectPage={selectedPage}
           setSelectPage={setSelectedPage}
         />
+        <MobileMenu className='sm:hidden' />
       </div>
     </nav>
   );
