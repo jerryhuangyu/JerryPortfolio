@@ -13,6 +13,7 @@
     "@react-three/drei": "^9.77.3",
     "@react-three/fiber": "^8.13.3",
     "@types/three": "^0.152.1",
+    "framer-motion": "^10.12.17",
     "i18next": "^23.2.3",
     "i18next-browser-languagedetector": "^7.0.2",
     "i18next-http-backend": "^2.2.1",
