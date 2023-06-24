@@ -21,7 +21,7 @@ const Company = ({
         className='h-7 w-7 aspect-square rounded-lg object-contain bg-stone-700 dark:bg-transparent'
       />
       <div className='flex cursor-pointer px-2 text-[18px] font-bold text-secondary-light dark:text-secondary-dark'>
-        <p>{zhName} &nbsp;</p>
+        <p className="font-['Noto_Sans_TC']">{zhName} &nbsp;</p>
         <p className='hidden sm:block'>| {enName}</p>
       </div>
     </Link>
