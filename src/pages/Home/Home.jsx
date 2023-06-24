@@ -1,8 +1,9 @@
-import { About, Contact, Hero, Project, Skill } from './sections'
+import { About, Contact, Hero, Project, Skill, Navbar } from './sections'
 
 const Home = () => {
   return (
     <>
+      <Navbar />
       <Hero />
       <About />
       <Skill />
