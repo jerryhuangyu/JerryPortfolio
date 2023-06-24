@@ -10,6 +10,17 @@
   scroll-behavior: smooth;
 }
 
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
 .blue-gradient {
   background: #62cdff;
   background: linear-gradient(-90deg, #62cdff 0%, rgba(60, 51, 80, 0) 100%);
