@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^9.77.3",
+    "@react-three/fiber": "^8.13.3",
+    "@types/three": "^0.152.1",
     "i18next": "^23.2.3",
     "i18next-browser-languagedetector": "^7.0.2",
     "i18next-http-backend": "^2.2.1",
@@ -21,7 +24,8 @@
     "react-i18next": "^13.0.1",
     "react-router-dom": "^6.13.0",
     "react-typed": "^1.2.0",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "three": "^0.153.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
