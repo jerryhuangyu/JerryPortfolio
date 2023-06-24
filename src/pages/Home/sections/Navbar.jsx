@@ -16,12 +16,17 @@ const Navbar = () => {
           setSelectPage={setSelectedPage}
         />
         <DesktopMenu
-          links={navLinks}
           className='hidden sm:flex'
+          links={navLinks}
           selectPage={selectedPage}
           setSelectPage={setSelectedPage}
         />
-        <MobileMenu className='sm:hidden' />
+        <MobileMenu
+          className='sm:hidden'
+          links={navLinks}
+          selectedPage={selectedPage}
+          setSelectedPage={setSelectedPage}
+        />
       </div>
     </nav>
   );
