@@ -4,7 +4,7 @@ import DarkModeSwitcher from "./DarkModeSwitcher";
 const DesktopMenu = ({ links, className, selectPage, setSelectPage }) => {
   return (
     <div className={className}>
-      <ul className='list-none flex-row flex gap-10 text-secondary-light dark:text-secondary-dark font-medium text-[18px] items-center pr-2'>
+      <ul className='list-none flex-row flex gap-10 text-secondary-light dark:text-secondary-dark font-medium text-[18px] items-center pr-4'>
         {links.map((link) => {
           const underline = selectPage === link.title ? "underline" : "";
           return (

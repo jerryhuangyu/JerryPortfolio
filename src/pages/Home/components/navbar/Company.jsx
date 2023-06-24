@@ -9,7 +9,7 @@ const Company = ({
   return (
     <Link
       to='/'
-      className='flex gap-2 pl-2'
+      className='flex gap-2 pl-4'
       onClick={() => {
         setSelectPage("");
         window.scrollTo(0, 0);

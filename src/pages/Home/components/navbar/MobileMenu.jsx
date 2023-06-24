@@ -1,8 +1,11 @@
 import React from 'react'
+import DarkModeSwitcher from './DarkModeSwitcher'
 
-const MobileMenu = () => {
+const MobileMenu = ({ className, }) => {
   return (
-    <div>MobileMenu</div>
+    <div className={`${className} pr-4`}>
+      <DarkModeSwitcher />
+    </div>
   )
 }
 
