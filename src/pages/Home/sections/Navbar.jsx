@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className='fixed w-full top-0 z-50'>
-      <div className='flex w-full items-center justify-between max-w-7xl mx-auto py-5'>
+      <div className='flex w-full items-center justify-between max-w-7xl 2xl:max-w-screen-2xl mx-auto py-5'>
         <Company
           logo={logo}
           zhName={"黃柏瑜"}
