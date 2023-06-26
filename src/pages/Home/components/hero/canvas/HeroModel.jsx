@@ -5,7 +5,8 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "./Loader";
 
 const HeroModel = ({ isMobile }) => {
-  const model = useGLTF('./car/scene.gltf');
+  const model = useGLTF('./hrc/hrc.gltf');
+  // const model = useGLTF('./car/scene.gltf');
   // const model = useGLTF('./robot/poly.glb');
   return (
     <mesh>
@@ -21,8 +22,8 @@ const HeroModel = ({ isMobile }) => {
       />
       <primitive
         object={model.scene}
-        scale={isMobile ? 0.4 : 0.6}
-        position={isMobile ? [0, -1.6, 0] : [0, -2.2, 0]}
+        scale={isMobile ? 5.4 : 6.6}
+        position={isMobile ? [0, -1.6, 0] : [-4.5, 2, 2.5]}
         rotation={[-0.03, -5, 0.1]}
       />
     </mesh>
