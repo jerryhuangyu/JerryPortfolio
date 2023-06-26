@@ -1,3 +1,5 @@
+import { grid, hexagon, octahedron, overlapping, torus, triangle } from "../assets";
+
 const pages = {
   Hero: 'Hero',
   About: 'About',
@@ -20,6 +22,33 @@ const navLinks = [
   },
 ];
 
+const abouts = [
+  {
+    title: "Web Application",
+    icon: grid,
+  },
+  {
+    title: "VR Application",
+    icon: hexagon,
+  },
+  {
+    title: "MR Application",
+    icon: octahedron,
+  },
+  {
+    title: "Arduino Project",
+    icon: overlapping,
+  },
+  {
+    title: "Autonomous Mobile Robot",
+    icon: torus,
+  },
+  {
+    title: "Point Cloud Analyzation",
+    icon: triangle,
+  },
+];
+
 export {
-  pages, navLinks
+  pages, navLinks, abouts,
 }
