@@ -7,7 +7,7 @@ const Navbar = () => {
   const [selectedPage, setSelectedPage] = useState("");
 
   return (
-    <nav className='fixed w-full top-0 z-50'>
+    <nav className='fixed w-full top-0 z-50 backdrop-blur-sm bg-opacity-60 dark:bg-opacity-60 bg-primary-light dark:bg-primary-dark'>
       <div className='flex w-full items-center justify-between max-w-7xl 2xl:max-w-screen-2xl mx-auto py-5'>
         <Company
           logo={logo}
