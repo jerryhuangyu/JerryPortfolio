@@ -13,7 +13,7 @@ const About = () => {
     <div className=''>
       <SectionTitle title={"introduction"} subtitle={"about me"}/>
 
-      <div className='mt-[50px] flex lg:flex-row flex-col min-h-[60vh] gap-5'>
+      <div className='mt-[50px] flex sm:flex-row flex-col min-h-[70vh] gap-3'>
         {abouts.map((about, index) => (
           <InfoCard
             id={about.id}
