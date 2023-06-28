@@ -24,26 +24,32 @@ const navLinks = [
 
 const abouts = [
   {
+    id: "web",
     title: "Web Application",
     icon: grid,
   },
   {
+    id: "vr",
     title: "VR Application",
     icon: hexagon,
   },
   {
+    id: "mr",
     title: "MR Application",
     icon: octahedron,
   },
   {
+    id: "arduino",
     title: "Arduino Project",
     icon: overlapping,
   },
   {
+    id: "robot",
     title: "Autonomous Mobile Robot",
     icon: torus,
   },
   {
+    id: "pointcloud",
     title: "Point Cloud Analyzation",
     icon: triangle,
   },
