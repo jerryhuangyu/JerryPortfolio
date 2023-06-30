@@ -21,6 +21,23 @@ import cardarduino from './abouts/cardimages/arduino.jpg'
 import cardrobot from './abouts/cardimages/robot.jpg'
 import cardpcd from './abouts/cardimages/pcd.jpg'
 
+import css from './skills/css.webp'
+import git from './skills/git.webp'
+import html from './skills/html.webp'
+import js from './skills/javascript.webp'
+import ts from './skills/typescript.webp'
+import mongodb from './skills/mongodb.webp'
+import nodejs from './skills/nodejs.webp'
+import reactjs from './skills/reactjs.webp'
+import redux from './skills/redux.webp'
+import tailwindcss from './skills/tailwindcss.webp'
+import threejs from './skills/threejs.webp'
+import ros from './skills/ros.webp'
+import csharp from './skills/csharp.webp'
+import mrtk from './skills/mrtk.webp'
+import arduino from './skills/arduino.webp'
+import python from './skills/python.webp'
+
 export { 
   logo,
 
@@ -44,4 +61,21 @@ export {
   cardarduino,
   cardrobot,
   cardpcd,
+
+  css,
+  git,
+  html,
+  js,
+  ts,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwindcss,
+  threejs,
+  ros,
+  python,
+  arduino,
+  mrtk,
+  csharp,
 }

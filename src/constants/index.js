@@ -1,5 +1,6 @@
 import { grid, hexagon, octahedron, overlapping, torus, triangle } from "../assets";
 import { cardweb, cardvr, cardmr, cardarduino, cardrobot, cardpcd } from "../assets";
+import { css, html, js, ts, reactjs, nodejs, tailwindcss, mongodb, threejs, redux, git, ros, arduino, csharp, mrtk, python  } from "../assets";
 
 const pages = {
   Hero: 'Hero',
@@ -62,6 +63,73 @@ const abouts = [
   },
 ];
 
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: js,
+  },
+  {
+    name: "TypeScript",
+    icon: ts,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwindcss,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "redux",
+    icon: redux,
+  },
+  {
+    name: "ros",
+    icon: ros,
+  },
+  {
+    name: "csharp",
+    icon: csharp,
+  },
+  {
+    name: "arduino",
+    icon: arduino,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "mrtk",
+    icon: mrtk,
+  },
+];
+
 export {
-  pages, navLinks, abouts,
+  pages, navLinks, abouts, technologies,
 }

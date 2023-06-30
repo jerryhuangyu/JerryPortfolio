@@ -12,8 +12,8 @@
 
 /* Hide scrollbar for IE, Edge and Firefox */
 * {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -38,5 +38,5 @@
 }
 
 .text-content {
-  @apply sm:my-8 my-4 text-secondary-light dark:text-secondary-dark font-["Noto_Sans_TC"] max-w-2xl font-light tracking-wider;
+  @apply sm:my-8 my-4 text-secondary-light dark:text-secondary-dark font-["Noto_Sans_TC"] max-w-3xl font-light tracking-wider;
 }
