@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     <div className=''>
-      <SectionTitle title={"introduction"} subtitle={"about me"} />
+      <SectionTitle title={"introduction"} subtitle={"about me."} />
       <Content content={t("about.intro.p1")} />
       <div className='mt-[20px] flex sm:flex-row flex-col min-h-[70vh] sm:gap-3 gap-1'>
         {abouts.map((about, index) => {
