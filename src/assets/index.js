@@ -15,7 +15,7 @@ import torus from './abouts/icons/torus.png'
 import triangle from './abouts/icons/triangle.png'
 
 import cardweb from './abouts/cardimages/web.jpg'
-import cardvr from './abouts/cardimages/vr.jpg'
+import cardvr from './abouts/cardimages/vr.webp'
 import cardmr from './abouts/cardimages/mr.jpg'
 import cardarduino from './abouts/cardimages/arduino.jpg'
 import cardrobot from './abouts/cardimages/robot.jpg'
