@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
+import { HeroModelCanvas } from "../components/canvas";
 import {
   ScrollingButton,
   LineDecorator,
   IntroductionContent,
-  HeroModelCanvas,
 } from "../components/hero";
 
 const Hero = () => {
