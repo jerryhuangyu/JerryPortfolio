@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import { abouts } from "../../../constants";
 import { InfoCard } from "../components/about";
-import SectionTitle from "../components/SectionTitle";
+import { Content, SectionTitle } from '../components'
 
 const About = () => {
   const [active, setActive] = useState("web");
@@ -13,11 +13,7 @@ const About = () => {
   return (
     <div className=''>
       <SectionTitle title={"introduction"} subtitle={"about me"} />
-
-      <p className='text-content'>
-        {t("about.intro.p1")}
-      </p>
-
+      <Content content={t("about.intro.p1")} />
       <div className='mt-[20px] flex sm:flex-row flex-col min-h-[70vh] sm:gap-3 gap-1'>
         {abouts.map((about, index) => {
           const infoContent = t(`about.intro.l${index + 1}`);
@@ -36,9 +32,8 @@ const About = () => {
           );
         })}
       </div>
-
-      <p className="text-content">{t('about.intro.p2')}</p>
-      <p className="text-content">{t('about.intro.p3')}</p>
+      <Content content={t('about.intro.p2')} />
+      <Content content={t('about.intro.p3')} />
     </div>
   );
 };

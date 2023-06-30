@@ -38,5 +38,5 @@
 }
 
 .text-content {
-  @apply sm:my-10 my-6 text-secondary-light dark:text-secondary-dark font-["Noto_Sans_TC"] max-w-2xl font-light tracking-wider;
+  @apply sm:my-8 my-4 text-secondary-light dark:text-secondary-dark font-["Noto_Sans_TC"] max-w-2xl font-light tracking-wider;
 }
