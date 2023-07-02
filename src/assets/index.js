@@ -38,6 +38,15 @@ import mrtk from './skills/mrtk.webp'
 import arduino from './skills/arduino.webp'
 import python from './skills/python.webp'
 
+import codegpt from './works/CodeGPT.webp'
+import dataanalytics from './works/DataAnalytics.webp'
+import evogym from './works/Evogym.webp'
+import portfolio from './works/Portfolio.webp'
+import sinsight from './works/S-Insight.webp'
+import tshortmaker from './works/TshortMaker.webp'
+import click from './works/click.png'
+import github from './works/github.png'
+
 export { 
   logo,
 
@@ -78,4 +87,13 @@ export {
   arduino,
   mrtk,
   csharp,
+
+  codegpt,
+  dataanalytics,
+  evogym,
+  portfolio,
+  sinsight,
+  tshortmaker,
+  click,
+  github,
 }
