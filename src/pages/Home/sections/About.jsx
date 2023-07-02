@@ -11,7 +11,7 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <div className=''>
+    <>
       <SectionTitle title={"introduction"} subtitle={"about me."} />
       <Content content={t("about.intro.p1")} />
       <div className='mt-[20px] flex sm:flex-row flex-col min-h-[70vh] sm:gap-3 gap-1'>
@@ -34,7 +34,7 @@ const About = () => {
       </div>
       <Content content={t('about.intro.p2')} />
       <Content content={t('about.intro.p3')} />
-    </div>
+    </>
   );
 };
 
