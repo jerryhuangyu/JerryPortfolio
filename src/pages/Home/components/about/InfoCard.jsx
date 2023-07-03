@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../utils/motion";
 
 const InfoCardBackground = ({ image, isActive, info }) => {
-  const imageStyle = isActive ? "opacity-10" : "opacity-[0.75]";
+  const imageStyle = isActive ? "opacity-[0.15]" : "opacity-[0.85]";
   return (
-    <div className='absolute top-0 left-0 z-10 flex w-full h-full green-pink-gradient rounded-[22px]'>
-      <div className='m-[2px] w-full dark:bg-primary-dark bg-primary-light rounded-[20px] opacity-[0.92]'></div>
+    <div className='absolute top-0 left-0 z-10 flex w-full h-full bg-out rounded-[20px]'>
+      <div className='m-[1px] w-full dark:bg-primary-dark bg-primary-light rounded-[20px] opacity-[0.92]'></div>
       <img
         src={image}
         alt={info}
-        className={`absolute right-[2px] top-[2px] w-[calc(100%-4px)] h-[calc(100%-4px)] object-cover rounded-[20px] ${imageStyle}`}
+        className={`absolute right-[1px] top-[1px] w-[calc(100%-2px)] h-[calc(100%-2px)] object-cover rounded-[20px] ${imageStyle}`}
       />
     </div>
   );
@@ -29,7 +29,7 @@ const FoldedInfoCard = ({ title, src }) => (
 );
 
 const UnfoldedInfoCard = ({ title, description }) => (
-  <div className='absolute bottom-[3px] right-[3px] p-8 sm:p-3 md:p-8 justify-start w-[calc(100%-6px)] flex-col bg-tertiary-light dark:bg-tertiary-dark rounded-b-[20px] z-20 h-[135px] sm:h-[200px]'>
+  <div className='absolute bottom-[1px] right-[1px] p-8 sm:p-3 md:p-8 justify-start w-[calc(100%-2px)] flex-col bg-tertiary-light dark:bg-tertiary-dark rounded-b-[20px] z-20 h-[135px] sm:h-[200px]'>
     <h2 className='font-bold lg:text-[32px] text-[24px] text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem] text-third-light dark:text-third-dark'>
       {title}
     </h2>
@@ -55,7 +55,7 @@ const InfoCard = ({
 
   return (
     <motion.div
-      className={`${sizeProportion} relative duration-300 text-secondary-light dark:text-secondary-dark overflow-hidden`}
+      className={`${sizeProportion} relative duration-300 text-secondary-light dark:text-secondary-dark overflow-hidden cursor-pointer`}
       variants={fadeIn("right", "spring", index * 0.5, 0.1)}
       onClick={() => handleClick(id)}
     >

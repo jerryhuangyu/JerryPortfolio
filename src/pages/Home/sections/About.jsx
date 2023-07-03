@@ -14,7 +14,7 @@ const About = () => {
     <>
       <SectionTitle title={"introduction"} subtitle={"about me."} />
       <Content content={t("about.intro.p1")} />
-      <div className='mt-[20px] flex sm:flex-row flex-col min-h-[70vh] sm:gap-3 gap-1'>
+      <div className='mt-[20px] flex sm:flex-row flex-col min-h-[70vh] sm:gap-2 gap-1'>
         {abouts.map((about, index) => {
           const infoContent = t(`about.intro.l${index + 1}`);
           return (
