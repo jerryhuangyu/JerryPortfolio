@@ -147,26 +147,26 @@ const technologies = [
     name: "redux",
     icon: redux,
   },
-  {
-    name: "ros",
-    icon: ros,
-  },
-  {
-    name: "csharp",
-    icon: csharp,
-  },
-  {
-    name: "arduino",
-    icon: arduino,
-  },
-  {
-    name: "python",
-    icon: python,
-  },
-  {
-    name: "mrtk",
-    icon: mrtk,
-  },
+  // {
+  //   name: "ros",
+  //   icon: ros,
+  // },
+  // {
+  //   name: "csharp",
+  //   icon: csharp,
+  // },
+  // {
+  //   name: "arduino",
+  //   icon: arduino,
+  // },
+  // {
+  //   name: "python",
+  //   icon: python,
+  // },
+  // {
+  //   name: "mrtk",
+  //   icon: mrtk,
+  // },
 ];
 
 const projects = [

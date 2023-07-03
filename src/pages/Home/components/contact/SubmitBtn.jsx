@@ -2,7 +2,7 @@ import React from "react";
 
 const SubmitBtn = ({ loading }) => {
   return (
-    <div className='flex justify-end'>
+    <div className='flex justify-end mt-5'>
       <div className='group relative'>
         <div className='absolute -inset-0.5 hidden rounded-lg bg-gradient-to-r from-pink-600 to-purple-600 opacity-50 blur transition duration-1000 ease-in-out group-hover:opacity-100 group-hover:duration-200 dark:block'></div>
         <button

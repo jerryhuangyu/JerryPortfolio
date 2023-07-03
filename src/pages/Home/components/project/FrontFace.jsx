@@ -9,7 +9,7 @@ const FrontFace = ({ title, tags, src }) => {
       />
 
       {/* card front title */}
-      <h3 className='flex pt-3 sm:pt-4 cursor-pointer items-center gap-2 text-[28px] sm:text-[24px] font-bold text-white tracking-widest drop-shadow-lg'>
+      <h3 className='flex pt-3 sm:pt-4 cursor-pointer items-center gap-2 text-[28px] sm:text-[24px] font-bold text-white tracking-wider drop-shadow-lg'>
         {title}
       </h3>
 

@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../utils/motion";
 
 const InfoCardBackground = ({ image, isActive, info }) => {
-  const imageStyle = isActive ? "opacity-10" : "opacity-80";
+  const imageStyle = isActive ? "opacity-10" : "opacity-[0.75]";
   return (
-    <div className='absolute top-0 left-0 z-10 flex w-full h-full green-pink-gradient rounded-[24px]'>
-      <div className='m-[3px] w-full dark:bg-primary-dark bg-primary-light rounded-[20px] opacity-[0.9]'></div>
+    <div className='absolute top-0 left-0 z-10 flex w-full h-full green-pink-gradient rounded-[22px]'>
+      <div className='m-[2px] w-full dark:bg-primary-dark bg-primary-light rounded-[20px] opacity-[0.92]'></div>
       <img
         src={image}
         alt={info}
-        className={`absolute right-[3px] top-[3px] w-[calc(100%-6px)] h-[calc(100%-6px)] object-cover rounded-[20px] ${imageStyle}`}
+        className={`absolute right-[2px] top-[2px] w-[calc(100%-4px)] h-[calc(100%-4px)] object-cover rounded-[20px] ${imageStyle}`}
       />
     </div>
   );
