@@ -1,4 +1,5 @@
-import { About, Contact, Hero, Project, Skill, Navbar } from './sections'
+import { About, Contact, Hero, Project, Skill, Navbar } from './sections';
+import { FloatActionButton } from './components';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       </div>
       <Project />
       <Contact />
+      <FloatActionButton />
     </div>
   )
 }
