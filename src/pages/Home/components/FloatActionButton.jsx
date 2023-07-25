@@ -1,8 +1,7 @@
-import { useState} from 'react'
+import { useState } from 'react'
 import i18next from 'i18next';
 
-const InnerFAB = ({ icon, handleOnclick, isToggle, index}) => {
-  const translate = `translate-y-[-${index*45}px]`
+const InnerFAB = ({ icon, handleOnclick, isToggle, translate}) => {
   return (
     <div
       onClick={handleOnclick}
@@ -33,7 +32,7 @@ const FloatActionButton = () => {
           changeLang2En();
           setFabToggle(!fabToggle);
         }}
-        index={1}
+        translate="-translate-y-[45px]"
         isToggle={fabToggle}
       />
       <InnerFAB
@@ -42,7 +41,7 @@ const FloatActionButton = () => {
           changeLang2Zh();
           setFabToggle(!fabToggle);
         }}
-        index={2}
+        translate="-translate-y-[90px]"
         isToggle={fabToggle}
       />
     </div>
