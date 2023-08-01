@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "./Loader";
 
 const HeroModel = ({ isMobile }) => {
-  const model = useGLTF('./hrc/hrc.gltf');
+  const model = useGLTF('./hrc/hrc_model.glb');
   // const model = useGLTF('./car/scene.gltf');
   // const model = useGLTF('./robot/poly.glb');
   return (
