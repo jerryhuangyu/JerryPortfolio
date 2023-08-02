@@ -1,4 +1,4 @@
-import InfoCard from "./infoCard";
+import InfoCard from "./InfoCard";
 
 export {
   InfoCard,
