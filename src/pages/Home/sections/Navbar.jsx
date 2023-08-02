@@ -10,6 +10,7 @@ const Navbar = () => {
   const handleScroll = () => {
     if (window.scrollY === 0) {
       setIsTopOfPage(true);
+      setSelectedPage("");
     } else {
       setIsTopOfPage(false);
     }
