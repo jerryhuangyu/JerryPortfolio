@@ -232,11 +232,7 @@ const projects = [
       {
         name: "openai",
         color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "blue-text-gradient",
-      },
+      }
     ],
     image: tshortmaker,
     source_code_link: "https://github.com/jerryhuangyu/TShirtCustomApp",
