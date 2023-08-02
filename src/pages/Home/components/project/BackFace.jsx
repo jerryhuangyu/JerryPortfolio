@@ -15,7 +15,7 @@ const LinkIcon = ({ link, src }) => (
 const BackFace = ({ githubLink, demoLink, index }) => {
   const { t } = useTranslation();
   return (
-    <div className='absolute w-full h-full rounded-xl [backface-visibility:hidden] [-webkit-backface-visibility:hidden] [transform:rotateY(180deg)] bg-tertiary-light dark:bg-black flex flex-col justify-center items-center p-16'>
+    <div className='absolute w-full h-full rounded-xl [backface-visibility:hidden] [-webkit-backface-visibility:hidden] [transform:rotateY(180deg)] bg-tertiary-light dark:bg-black flex flex-col justify-center items-center p-6'>
       <p className='sm:my-8 my-4 text-third-light dark:text-secondary-dark font-["Noto_Sans_TC"] max-w-3xl font-light tracking-wider'>
         {t(`work.cards.${index}`)}
       </p>
