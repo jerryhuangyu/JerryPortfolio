@@ -4,7 +4,7 @@ import { Suspense } from 'react';
 import Loader from './Loader';
 
 const ContactModel = () => {
-  const model = useGLTF("./planet/scene.gltf");
+  const model = useGLTF("./planet/planet.glb");
 
   return (
     <primitive object={model.scene} scale={2.5} position-y={0} rotation-y={0} />
