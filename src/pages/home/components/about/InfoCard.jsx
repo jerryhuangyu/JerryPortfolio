@@ -53,11 +53,11 @@ const InfoCard = ({
 
   return (
     <motion.div
-      className={`${sizeProportion} relative duration-300 text-secondary-light dark:text-secondary-dark overflow-hidden cursor-pointer`}
+      className={`${sizeProportion} relative duration-100 text-secondary-light dark:text-secondary-dark overflow-hidden cursor-pointer`}
       variants={fadeIn("right", "spring", index * 0.5, 0.1)}
       onClick={() => handleClick(id)}
     >
-      <InfoCardBackground image={coverImage} isActive={isActive} info={info} />
+      <InfoCardBackground image={coverImage} isActive={isActive} />
       {isActive ? (
         <FoldedInfoCard title={info} src={icon} />
       ) : (
