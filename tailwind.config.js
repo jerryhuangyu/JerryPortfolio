@@ -23,7 +23,7 @@ export default {
         xs: "450px",
       },
       backgroundImage: {
-        tech: "linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url('/src/assets/bg/techbg.png')",
+        tech: "linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url('/src/assets/bg/techbg.webp')",
       }
     },
   },
