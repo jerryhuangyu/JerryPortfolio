@@ -7,9 +7,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
-      <div className='bg-none dark:bg-tech bg-cover bg-center bg-no-repeat pb-10'>
-        <Skill />
-      </div>
+      <Skill />
       <Project />
       <Contact />
       <FloatActionButton />
