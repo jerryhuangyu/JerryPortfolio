@@ -191,8 +191,8 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/jerryhuangyu/Portfolio",
-    demo_link: "https://portfolio-peach-one-10.vercel.app/",
+    source_code_link: "https://github.com/jerryhuangyu/JerryPortfolio",
+    demo_link: "https://jerry-portfolio.vercel.app/",
   },
   {
     name: "S-Insight",
