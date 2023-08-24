@@ -15,6 +15,7 @@ const Loader = () => {
       }}
     >
       <span className='canvas-load'></span>
+      <div className=" h-[200px]"></div>
       <p
         style={{
           fontSize: 14,
