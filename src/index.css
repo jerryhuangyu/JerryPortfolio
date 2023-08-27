@@ -89,3 +89,20 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.resume-download-btn svg polyline,
+.resume-download-btn svg line {
+  animation: download 1s infinite;
+}
+
+@keyframes download {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-15%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
