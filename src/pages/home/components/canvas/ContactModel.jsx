@@ -1,13 +1,25 @@
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
-import { Suspense } from 'react';
-import Loader from './Loader';
+import { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+
+import Loader from "./Loader";
 
 const ContactModel = () => {
-  const model = useGLTF("./planet/planet.glb");
+  const model = useGLTF("./hrcrobot/hrcrobot.glb");
 
   return (
-    <primitive object={model.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <mesh>
+      <pointLight intensity={1} />
+      <hemisphereLight intensity={1} />
+      <primitive
+        object={model.scene}
+        scale={8.5}
+        position-y={0}
+        position-z={-0.4}
+        position-x={-0.8}
+        rotation-y={0}
+      />
+    </mesh>
   );
 };
 
@@ -28,6 +40,7 @@ const ContactModelCanvas = () => {
         <OrbitControls
           autoRotate
           enableZoom={false}
+          enableRotate={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
@@ -37,4 +50,4 @@ const ContactModelCanvas = () => {
   );
 };
 
-export default ContactModelCanvas
+export default ContactModelCanvas;
