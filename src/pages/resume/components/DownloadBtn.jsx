@@ -1,3 +1,5 @@
+import pdf from "../../../assets/resume.pdf";
+
 const DownloadIcon = () => (
   <svg
     className="css-i6dzq1 invert"
@@ -36,17 +38,19 @@ const DocumentIcon = () => (
   </svg>
 );
 
-const DownloadBtn = ({ OnclickEvent }) => {
+const DownloadBtn = ({ OnclickEvent, className }) => {
   return (
-    <button className="group relative border-0 rounded z-[1]" onClick={OnclickEvent}>
-      <div className="flex items-center justify-between gap-2.5 min-h-[50px] px-2.5 rounded z-[1] bg-[#242a35] border-solid border-2 border-[#e8e8e82d]">
-        <DocumentIcon />
-        <p className="text-white font-semibold">Resume</p>
-      </div>
+    <button className={`group relative border-0 rounded z-[1] ${className}`}>
+      <a href={pdf} download="黃柏瑜簡歷.pdf">
+        <div className="flex items-center justify-between gap-2.5 min-h-[50px] px-2.5 rounded z-[1] bg-[#242a35] border-solid border-2 border-[#e8e8e82d] dark:border-out">
+          <DocumentIcon />
+          <p className="text-white font-semibold">Resume</p>
+        </div>
 
-      <div className="resume-download-btn absolute flex inset-0 items-center justify-center max-w-[90%] my-auto z-[-1] rounded-b translate-x-[5%] translate-y-0 bg-[#01e056] border-solid border-[1px] border-[#01e0572d] transition-all group-hover:translate-y-[100%]">
-        <DownloadIcon />
-      </div>
+        <div className="resume-download-btn absolute flex inset-0 items-center justify-center max-w-[50%] max-h-[80%] my-auto z-[-1] rounded-r translate-x-[100%] translate-y-0 bg-out border-solid border-[1px] border-[#62cdff2d] transition-all group-hover:translate-x-[200%]">
+          <DownloadIcon />
+        </div>
+      </a>
     </button>
   );
 };
