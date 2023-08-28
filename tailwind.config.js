@@ -6,8 +6,8 @@ export default {
     extend: {
       colors: {
         "primary-light": "#fcfbf6",
-        "secondary-light": "#73839d", // text main
-        "third-light": "#576076", // text secondary
+        "secondary-light": "#34434e", // text main
+        "third-light": "#242a35", // text secondary
         "tertiary-light": "#AEBDCA",
         "sidemenu-light": "#d8dfe5",
 
