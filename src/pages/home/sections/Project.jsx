@@ -26,6 +26,7 @@ const Project = () => {
             githubLink={projects.source_code_link}
             demoLink={projects.demo_link}
             index={index}
+            isHighlight={projects.highlight}
           />
         ))}
       </div>

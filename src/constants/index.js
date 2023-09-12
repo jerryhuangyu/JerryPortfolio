@@ -172,6 +172,7 @@ const technologies = [
 const projects = [
   {
     name: "My Protfolio",
+    highlight: false,
     tags: [
       {
         name: "react",
@@ -196,6 +197,7 @@ const projects = [
   },
   {
     name: "S-Insight",
+    highlight: true,
     tags: [
       {
         name: "react",
@@ -220,6 +222,7 @@ const projects = [
   },
   {
     name: "Tshirt Maker",
+    highlight: false,
     tags: [
       {
         name: "react",
@@ -240,6 +243,7 @@ const projects = [
   },
   {
     name: "CodeGPT",
+    highlight: false,
     tags: [
       {
         name: "js",
@@ -268,6 +272,7 @@ const projects = [
   },
   {
     name: "EVOGYM",
+    highlight: false,
     tags: [
       {
         name: "react",
@@ -288,6 +293,7 @@ const projects = [
   },
   {
     name: "DATA ANALYTICS",
+    highlight: false,
     tags: [
       {
         name: "react",

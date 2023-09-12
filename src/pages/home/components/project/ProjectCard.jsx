@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import FrontFace from "./FrontFace";
 import BackFace from "./BackFace";
 
-const ProjectCard = ({ title, tags, src, githubLink, demoLink, index }) => {
+const ProjectCard = ({ title, tags, src, githubLink, demoLink, index, isHighlight }) => {
   const [isClick, setIsClick] = useState(false);
   const [timer, setTimer] = useState(0);
   const flippingStyle = isClick ? "[transform:rotateY(180deg)]" : "";
@@ -27,7 +27,7 @@ const ProjectCard = ({ title, tags, src, githubLink, demoLink, index }) => {
       <div
         className={`w-full h-full ease-in-out duration-500 [transform-style:preserve-3d] ${flippingStyle}`}
       >
-        <FrontFace title={title} tags={tags} src={src} />
+        <FrontFace title={title} tags={tags} src={src} isHighlight={isHighlight} />
         <BackFace githubLink={githubLink} demoLink={demoLink} index={index} />
       </div>
     </button>

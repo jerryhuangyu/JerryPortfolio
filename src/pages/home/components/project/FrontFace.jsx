@@ -1,6 +1,6 @@
-const FrontFace = ({ title, tags, src }) => {
+const FrontFace = ({ title, tags, src, isHighlight }) => {
   return (
-    <div className='absolute h-full w-full rounded-xl [backface-visibility:hidden] [-webkit-backface-visibility:hidden] bg-tertiary-light dark:bg-tertiary-dark p-4'>
+    <div className={`${isHighlight?" bg-cyan-700":"bg-tertiary-light dark:bg-tertiary-dark"} absolute h-full w-full rounded-xl [backface-visibility:hidden] [-webkit-backface-visibility:hidden] p-4`}>
       {/* cover image */}
       <img
         src={src}
