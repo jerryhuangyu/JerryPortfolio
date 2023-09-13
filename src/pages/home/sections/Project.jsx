@@ -6,16 +6,17 @@ import { projects } from "../../../constants";
 
 const Project = () => {
   const { t } = useTranslation();
+  const projectIntros = [
+    { isHighlight: false, content: t("work.intro.p1") },
+    { isHighlight: true, content: t("work.intro.p2") },
+    { isHighlight: false, content: t("work.intro.p3") },
+    { isHighlight: true, content: t("work.intro.p4") },
+    { isHighlight: false, content: t("work.intro.p5") },
+  ];
   return (
     <>
       <SectionTitle title={"my works"} subtitle={"projects."} />
-      <ProjectContent
-        p1={t("work.intro.p1")}
-        p2={t("work.intro.p2")}
-        p3={t("work.intro.p3")}
-        p4={t("work.intro.p4")}
-        p5={t("work.intro.p5")}
-      />
+      <ProjectContent contents={projectIntros} />
       <div className="mt-[20px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-6">
         {projects.map((projects, index) => (
           <ProjectCard
