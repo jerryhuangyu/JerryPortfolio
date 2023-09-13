@@ -18,7 +18,13 @@
     }
   },
   "work": {
-    "intro": "Following projects showcases my skills and experience. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve problems, work with different technologies, and manage projects effectively.",
+    "intro": {
+      "p1": "Following projects showcases my skills and experience. ",
+      "p2": "Click to flip the card.",
+      "p3": " Each project is briefly described with ",
+      "p4": "links to code repositories and live demos",
+      "p5": " in it. It reflects my ability to solve problems, work with different technologies, and manage projects effectively."
+    },
     "cards": {
       "0": "Static Webpage, Allows users to browse a personal introduction website.",
       "1": "Web application, Allows users to browse, record, and analyze transaction records.",
