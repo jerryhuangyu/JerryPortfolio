@@ -1,4 +1,3 @@
-import React from "react";
 import ReactTyped from "react-typed";
 import HackerText from "./HackerText";
 import DownloadBtn from '../../../resume/components/DownloadBtn';

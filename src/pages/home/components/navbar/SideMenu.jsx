@@ -1,4 +1,3 @@
-import React from "react";
 import CloseIcon from "./CloseIcon";
 
 const SideMenu = ({

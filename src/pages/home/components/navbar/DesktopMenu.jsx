@@ -1,4 +1,3 @@
-import React from "react";
 import DarkModeSwitcher from "./DarkModeSwitcher";
 
 const DesktopMenu = ({ links, className, selectPage, setSelectPage }) => {

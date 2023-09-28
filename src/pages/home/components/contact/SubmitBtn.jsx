@@ -1,5 +1,3 @@
-import React from "react";
-
 const SubmitBtn = ({ loading }) => {
   return (
     <div className='flex justify-end mt-5'>

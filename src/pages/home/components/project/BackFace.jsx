@@ -1,4 +1,3 @@
-import React from "react";
 import { github, click } from "../../../../assets";
 import { useTranslation } from "react-i18next";
 import Content from "../Content";

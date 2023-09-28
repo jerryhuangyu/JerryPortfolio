@@ -1,5 +1,3 @@
-import React from 'react'
-
 const InputTextarea = ({ name, value, handleChange, placeholderText }) => (
   <div className='mt-2'>
     <div className='relative w-full'>
