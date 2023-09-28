@@ -29,7 +29,7 @@ const FoldedInfoCard = ({ title, src }) => (
 
 const UnfoldedInfoCard = ({ title, description }) => (
   <div className="absolute bottom-[1px] right-[1px] p-8 sm:p-3 md:p-8 justify-start w-[calc(100%-2px)] flex-col bg-tertiary-light dark:bg-tertiary-dark rounded-b-[20px] z-20 h-[135px] sm:h-[200px]">
-    <h2 className="font-bold lg:text-[32px] text-[24px] text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem] text-third-light dark:text-third-dark">
+    <h2 className="font-bold lg:text-[32px] text-[24px] uppercase sm:mt-0 -mt-[1rem] text-third-light dark:text-third-dark">
       {title}
     </h2>
     <p className="lg:text-[14px] text-[12px] max-w-3xl sm:leading-[24px] leading-[18px] tracking-[1px]">
